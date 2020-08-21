@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
+import axios from 'axios';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
@@ -11,7 +12,8 @@ import AddCity from './forms/AddCity';
 import AddVenue from './forms/AddVenue';
 
 class App extends Component {
-  
+
+
 
   render(){
     return (
