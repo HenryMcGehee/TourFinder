@@ -1,9 +1,10 @@
 import React from 'react';
+import './Map.css';
 
 const Map = () => {
   return (
     <div>
-      <h1>Tour Finder</h1>
+      <div id="map"></div>
     </div>
   );
 }

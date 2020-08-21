@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Map from './pages/Map';
+import MapPage from './pages/MapPage';
 
 function App() {
   return (
     <div className="App">
-      <Map />
+      <MapPage />
     </div>
   );
 }
