@@ -1,0 +1,16 @@
+.footer {
+    height: 50px;
+}
+
+.container {
+    padding: 10px;
+}
+
+.bottomtext {
+    padding-top: 2%;
+    color: white;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+  }
